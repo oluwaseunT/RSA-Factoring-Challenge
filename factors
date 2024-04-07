@@ -1,0 +1,7 @@
+#!/usr/bin/usr bash
+# Factorize as many numbers as possible into a product of two smallar numbers
+
+#where <file> is a file containing natural numbers to factor
+
+gcc factor.c -o a
+./a $1
